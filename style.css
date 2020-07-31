@@ -50,7 +50,7 @@ header, footer, article, nav, aside {
   justify-content: center;
   margin-top: -100px;
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   background-image: url('slytherin-min.jpg');
   border-radius: 3px;
   background-size: cover; 
@@ -61,9 +61,22 @@ header, footer, article, nav, aside {
   .container{
     display: inline-flex;
     justify-content: center;
+    width: 65%;
+    height: 55vh;
+    background-image: url('slytherin-1.jpg');
+    border-radius: 3px;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 768px){
+
+  .container{
+    display: inline-flex;
+    justify-content: center;
     width: 60%;
-    height: 40vh;
-    background-image: url('slytherin.jpg');
+    height: 55vh;
+    background-image: url('slytherin-1.jpg');
     border-radius: 3px;
     background-size: cover;
   }
@@ -325,8 +338,4 @@ button{
   font-size: 3vh;
   width: 40%;
   height: 5vh;
-}
-
-button a:hover{
-  
 }
